@@ -24,7 +24,7 @@ const Hero = () => {
                 </div>
             </nav>
 
-            <div className='bg-[#151218] text-white w-screen flex flex-row pt-8 pl-7 lg :min-h-[cal(100vh-80px)] lg:pl-36 lg:pt-32'>
+            <div className='bg-[#151218] text-white w-screen flex flex-row pt-8 pl-7 lg:max-h-[90vh] rounded-br-[130px] rounded-bl-[100px] lg:pl-36 lg:pt-32'>
                 <div className='flex flex-col lg:flex-row'>
                     <div className=''>
                         <div>

@@ -11,7 +11,7 @@ const Hero = () => {
                     <h1 className='text-3xl .raleway-bold font-semibold mt-2 pl-7 lg:-pl-10  lg:mt-0 '>CleverBooks</h1>
                 </div>
                 <div className='hidden lg:flex lg: text-base gap-8 font-normal -pl-8 lg:items-center cursor-pointer'>
-                    <h3>Product</h3>
+                    <h3 className='hover:text-[#C67266] hover:transition ease-in-out'>Product</h3>
                     <h3>Pricing</h3>
                     <h3>Industry</h3>
                     <h3>Customer Stories</h3>
@@ -23,7 +23,6 @@ const Hero = () => {
                     <button className='px-6 py-3 rounded-3xl font-medium text-base bg-gradient-to-r from-[#EA8993] to-[#B375D4]'>Talk to Us</button>
                 </div>
             </nav>
-
             <div className='bg-[#151218] text-white w-screen flex flex-row pt-8 pl-7 lg:max-h-[90vh] rounded-br-[130px] rounded-bl-[100px] lg:pl-36 lg:pt-32'>
                 <div className='flex flex-col lg:flex-row'>
                     <div className=''>
@@ -31,7 +30,7 @@ const Hero = () => {
                             <div className='text-4xl font-semibold w-80 leading-snug lg:text-7xl lg:w-[35rem] lg:leading-snug'>
                                 <h1>Every order fulfilled, on time.</h1>
                             </div>
-                            <div className='text-lg mt-5 w-[93%] lg:w-[61%]'>
+                            <div className='text-lg mt-5 w-[93%] lg:w-[87%]'>
                                 <p>Eliminate overstocking and under-stocking with Crest. Built by supply-chain experts, it brings the same technology used by large global brands to power fast-growing startups. In short, we make supply meet demand, and then help you grow both.</p>
                             </div>
                             <div className='flex '>

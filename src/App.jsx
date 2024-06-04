@@ -5,6 +5,7 @@ import Key from './Pages/Key/Key'
 import Metrices from './Pages/metrices/Metrices'
 import Reviews from './Pages/Reviews/Reviews'
 import CTA from './Pages/CTA/CTA'
+import Footer from './Pages/Footer/Footer'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Metrices/>
       <Reviews/>
       <CTA/>
+      <Footer/>
     </div>
   )
 }

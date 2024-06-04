@@ -4,19 +4,19 @@ import "./Hero.css"
 import icon from "../../assets/icon.png"
 const Hero = () => {
     return (
-        <div>
-            <nav className='bg-[#151218] text-white flex justify-start items-start w-screen min-h-20 lg:justify-around pl-0 -mt-2 lg:items-center'>
+        <div className='max-w-[100vw] overflow-hidden'>
+            <nav className='bg-[#151218] text-white flex justify-start items-start w-screen overflow-hidden min-h-20 lg:justify-around pl-0 -mt-2 lg:items-center'>
                 <div>
                     {/* <img className='bg-transparent' src={icon} alt="" /> */}
                     <h1 className='text-3xl .raleway-bold font-semibold mt-2 pl-7 lg:-pl-10  lg:mt-0 '>CleverBooks</h1>
                 </div>
                 <div className='hidden lg:flex lg: text-base gap-8 font-normal -pl-8 lg:items-center cursor-pointer'>
                     <h3 className='hover:text-[#C67266] hover:transition ease-in-out'>Product</h3>
-                    <h3>Pricing</h3>
-                    <h3>Industry</h3>
-                    <h3>Customer Stories</h3>
-                    <h3>About</h3>
-                    <h3>Blog</h3>
+                    <h3 className='hover:text-[#C67266] hover:transition ease-in-out'>Pricing</h3>
+                    <h3 className='hover:text-[#C67266] hover:transition ease-in-out'>Industry</h3>
+                    <h3 className='hover:text-[#C67266] hover:transition ease-in-out'>Customer Stories</h3>
+                    <h3 className='hover:text-[#C67266] hover:transition ease-in-out'>About</h3>
+                    <h3 className='hover:text-[#C67266] hover:transition ease-in-out'>Blog</h3>
                 </div>
                 <div className='hidden lg:flex gap-10 cursor-pointer justify-center items-center'>
                     <h2>Login</h2>
@@ -40,7 +40,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className='flex justify-center mt-20 lg:-mt-96'>
-                        <img className='h-[420px] lg:h-[80rem]' src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d648dea3f01_Hero%20Image.svg" alt="" />
+                        <img className='h-[420px] lg:h-[80rem] object-fill' src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d648dea3f01_Hero%20Image.svg" alt="" />
                     </div>
                 </div>
             </div>

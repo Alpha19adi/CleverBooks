@@ -1,0 +1,14 @@
+.move{
+    animation: move-rtl 10000ms infinite linear ;
+}
+.move:hover{
+    animation-play-state: paused;
+}
+@keyframes move-rtl {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

@@ -4,8 +4,8 @@ import './Key.css'
 import Key_card from '../../Components/Key_card'
 const Key = () => {
     return (
-        <div>
-            <div className='text-xl lg:text-5xl font-bold flex justify-center my-16 lg:my-32'>
+        <div className='max-w-[100vw]'>
+            <div className='text-xl  lg:text-5xl font-bold flex justify-center my-16 lg:my-32'>
                 <h1>Four key questions answered by CleverBooks</h1>
             </div>
             <div className='flex flex-col gap-4 justify-center ml-5 mt-5 lg:flex-row mb-28 lg:mx-12'>

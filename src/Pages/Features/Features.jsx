@@ -25,7 +25,7 @@ const Features = () => {
                 <div className='w-[95%] flex justify-center px-5 bg-mygra py-8 rounded-3xl lg:py-36'>
                     <img className='w-[90%] lg:w-[100%]' src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63f64bb2507621d0bf7da369_Demand%20forecasting-p-800.webp" alt="" />
                 </div>
-                <div className='flex flex-col items-start w-full ml-14 mt-2 gap-7 lg:-mt-40'>
+                <div className='flex flex-col items-start w-full ml-14 mt-2 gap-7 lg:-mt-40 md:-mt-20'>
                     {fet.map((item, index) => (
                         <div key={index} className='flex flex-col w-full gap-2'>
                             <h1 className='bg-mygra bg-clip-text text-transparent text-2xl font-semibold'>{item.title}</h1>

@@ -2,12 +2,14 @@
 import React from 'react'
 import "./Hero.css"
 import icon from "../../assets/icon.png"
+import right from "../../assets/right.svg"
 const Hero = () => {
     return (
         <div className='max-w-[100vw] overflow-hidden'>
+            <div>
             <nav className='bg-[#151218] text-white flex justify-start items-start w-screen overflow-hidden min-h-20 lg:justify-around pl-0 -mt-2 lg:items-center'>
-                <div>
-                    {/* <img className='bg-transparent' src={icon} alt="" /> */}
+                <div className='flex'>
+                    {/* <img className='bg-transparent w-10' src={icon} alt="" /> */}
                     <h1 className='text-3xl .raleway-bold font-semibold mt-2 pl-7 lg:-pl-10  lg:mt-0 '>CleverBooks</h1>
                 </div>
                 <div className='hidden lg:flex lg: text-base gap-8 font-normal -pl-8 lg:items-center cursor-pointer'>
@@ -19,7 +21,7 @@ const Hero = () => {
                     <h3 className='hover:text-[#C67266] hover:transition ease-in-out'>Blog</h3>
                 </div>
                 <div className='hidden lg:flex gap-10 cursor-pointer justify-center items-center'>
-                    <h2>Login</h2>
+                    <h2 className='bg-mygra bg-clip-text text-transparent font-medium'>Login</h2>
                     <button className='px-6 py-3 rounded-3xl font-medium text-base bg-gradient-to-r from-[#EA8993] to-[#B375D4]'>Talk to Us</button>
                 </div>
             </nav>
@@ -28,21 +30,26 @@ const Hero = () => {
                     <div className=''>
                         <div>
                             <div className='text-4xl font-semibold w-80 leading-snug lg:text-7xl lg:w-[35rem] lg:leading-snug'>
-                                <h1>Every order fulfilled, on time.</h1>
+                                <h1>Every order fulfilled,<span className='bg-mygra text-transparent bg-clip-text'> on time.</span></h1>
                             </div>
                             <div className='text-lg mt-5 w-[93%] lg:w-[87%]'>
                                 <p>Eliminate overstocking and under-stocking with Crest. Built by supply-chain experts, it brings the same technology used by large global brands to power fast-growing startups. In short, we make supply meet demand, and then help you grow both.</p>
                             </div>
-                            <div className='flex '>
-                                <button className='mt-11 px-4 border-2 bg-inherit py-3 rounded-3xl '>Get Started with CleverBooks</button>
+                            <div className='flex'>
+                                <button className='mt-11 px-4 border-2  py-3 rounded-3xl hover:bg-mygra   '>Get Started with CleverBooks</button>
                                 <img className='relative top-14 left-4' src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63d1777671aadb7b8492b5f9_hero-home-cta%20right%20to%20left.svg" alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className='flex justify-center mt-20 lg:-mt-96'>
+                    <div className='flex justify-center mt-20 lg:-mt-96 overflow-x-hidden'>
+                    <img className='absolute right-0' src={right} alt="" /> 
                         <img className='h-[420px] lg:h-[80rem] object-fill' src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326d648dea3f01_Hero%20Image.svg" alt="" />
                     </div>
                 </div>
+            </div>
+            </div>
+            <div>
+             
             </div>
         </div>
     )

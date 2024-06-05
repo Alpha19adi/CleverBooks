@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: { },
+    extend: {
+      backgroundImage:{
+          'mygra':"linear-gradient(to right,#EC8A91,#B175D6)",
+      }
+     },
   },
   plugins: [],
 }

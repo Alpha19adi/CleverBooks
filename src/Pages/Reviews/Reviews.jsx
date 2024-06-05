@@ -84,15 +84,15 @@ const Reviews = () => {
                                         <div>{currentReview.position}</div>
                                     </div>
                                 </div>
-                                <div className='gap-3 flex lg:flex gap-4 '>
+                                <div className='gap-3 flex lg:flex lg:gap-4 '>
                                     <button className='w-10 border-pink-400 border-2 rounded-full ' onClick={handlePrev}><img src={left} alt="" /></button>
                                     <button className='w-10 border-pink-400 border-2 rounded-full ' onClick={handleNext}><img src={right} alt="" /></button>
                                 </div>
                             </div>
                         </div>
                         <div className='flex gap-10 mt-10'>
-                            <div className='h-18 w-1/2 text-fuchsia-800 py-3 flex-col justify-center text-center items-center rounded-3xl text-3xl bg-pink-200 font-semibold'>{currentReview.box1}<br /><span className='text-lg text-black font-normal'>{currentReview.box1_in}</span></div>
-                            <div className='h-18 w-1/2 text-fuchsia-800 py-3 flex-col justify-center text-center items-center rounded-3xl text-3xl bg-pink-200 font-semibold'>{currentReview.box2}<br /><span className='text-lg text-black font-normal'>{currentReview.box2_in}</span></div>
+                            <div className='h-18 w-1/2 bg-mygra bg-clip-text text-transparent shadow-lg py-3 flex-col justify-center text-center items-center rounded-3xl text-4xl  font-semibold'>{currentReview.box1}<br /><span className='text-lg text-black font-normal'>{currentReview.box1_in}</span></div>
+                            <div className='h-18 w-1/2 bg-mygra bg-clip-text text-transparent py-3 shadow-lg flex-col justify-center text-center items-center rounded-3xl text-4xl  font-semibold'>{currentReview.box2}<br /><span className='text-lg text-black font-normal'>{currentReview.box2_in}</span></div>
                         </div>
                     </div>
                 </div>

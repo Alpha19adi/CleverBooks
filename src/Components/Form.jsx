@@ -8,7 +8,7 @@ const Form = ({ onClose }) => {
       <div className='w-3/4 bg-purple-100 lg:w-[38rem] py-2 lg:h-[44rem] text-center rounded-3xl flex flex-col items-center justify-start relative'>
         <button onClick={onClose} className='absolute top-4 right-4 text-xl text-black font-bold'>&times;</button>
         <div className='flex flex-col gap-6 w-full'>
-          <h1 className='text-4xl font-semibold'>Get Started with Crest</h1>
+          <h1 className='text-4xl font-semibold'>Get Started with CleverBooks </h1>
           <h4 className='text-lg font-normal'>Take a free tour of the platform</h4>
           <div className='flex flex-col w-full items-start px-12 gap-2'>
             <h4 className='text-lg'>First name*</h4>

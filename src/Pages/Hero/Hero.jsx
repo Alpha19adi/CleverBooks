@@ -33,7 +33,7 @@ const Hero = () => {
                                 <h1>Every order fulfilled,<span className='bg-mygra text-transparent bg-clip-text'> on time.</span></h1>
                             </div>
                             <div className='text-lg mt-5 w-[93%] lg:w-[87%]'>
-                                <p>Eliminate overstocking and under-stocking with Crest. Built by supply-chain experts, it brings the same technology used by large global brands to power fast-growing startups. In short, we make supply meet demand, and then help you grow both.</p>
+                                <p>Eliminate overstocking and under-stocking with CleverBooks . Built by supply-chain experts, it brings the same technology used by large global brands to power fast-growing startups. In short, we make supply meet demand, and then help you grow both.</p>
                             </div>
                             <div className='flex'>
                                 <button className='mt-11 px-4 border-2  py-3 rounded-3xl hover:bg-mygra   '>Get Started with CleverBooks</button>

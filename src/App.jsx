@@ -7,6 +7,7 @@ import Reviews from './Pages/Reviews/Reviews'
 import CTA from './Pages/CTA/CTA'
 import Footer from './Pages/Footer/Footer'
 import Form from './Components/Form'
+import Features from './Pages/Features/Features'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Key/>
       <Metrices/>
       <Reviews/>
+      <Features/>
       <CTA/>
       <Footer/>
     </div>

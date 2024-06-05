@@ -37,6 +37,8 @@ const Metrices = () => {
         animateValue(val3Ref.current, 0, 15, 0.5);
     }, []);
 
+    
+
     return (
         <div>
             <div className='max-w-[100vw] min-h-screen min-w-full bg-[#151218] flex justify-center items-center flex-col'>
